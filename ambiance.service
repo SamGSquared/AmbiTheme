@@ -1,0 +1,9 @@
+[Unit]
+Description=Ambient Light Theme Switcher
+After=graphical-session.target
+[Service]
+ExecStart=/usr/local/sbin/ambiance.sh
+
+[Install]
+WantedBy=graphical-session.target
+
